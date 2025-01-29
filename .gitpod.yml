@@ -4,7 +4,7 @@ image:
 tasks:
 - name: Start
   command: |
-     ./myWebApp run
+    go run .
 ports:
     - name: Web App
       description: The main application web server
