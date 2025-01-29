@@ -1,16 +1,4 @@
-
+ports:
+- port: 8080
 tasks:
-  - init: go install github.com/gopherdata/gophernotes@latest
-    command: go run .
-
-
-
-vscode:
-  extensions:
-    - golang.goduction/learn-gitpod/gitpod-yaml)
-# Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
-#  go get && go build ./... && go test ./... && make
-tasks:
-  - init: go install github.com/gopherdata/gophernotes@latest
-    command: go run .
-
+- command: go install github.com/gopherdata/gophernotes@latest
