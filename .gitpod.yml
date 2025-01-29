@@ -1,2 +1,12 @@
+
 image:
   file: .gitpod.Dockerfile
+tasks:
+  - init: go install github.com/gopherdata/gophernotes@latest
+    command: go run .    
+
+# Extensions 
+vscode:
+  extensions:
+    - golang.go
+
